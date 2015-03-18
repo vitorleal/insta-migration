@@ -5,15 +5,15 @@ This is a simple project for a friend of mine so he can migrate his instagram ac
 ## How to run
 Edit the **main.py** file.
 ```python
-	def main():
-		# insert you user name here
-   		insta = InstaMigration('YOUR_INSTAGRAM_USER_NAME')
-   		insta.make_migration()
+def main():
+    # insert you user name here
+    insta = InstaMigration('YOUR_INSTAGRAM_USER_NAME')
+    insta.make_migration()
 ```
 
 Then run the code
 ```
-$ python main
+$ python main.py
 ```
 
 Thats it, you have the CSV file with the people you follow.
