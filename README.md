@@ -3,17 +3,16 @@
 This is a simple project for a friend of mine so he can migrate his instagram account. It get's the users he follow nad put in a CSV file.
 
 ## How to run
-Edit the **main.py** file.
-```python
-def main():
-    # insert you user name here
-    insta = InstaMigration('YOUR_INSTAGRAM_USER_NAME')
-    insta.make_migration()
+Run the main file passsing the flag -u/--username with your Instagram username
+
+```
+$ python main.py -u yourUsername
 ```
 
-Then run the code
+or
+
 ```
-$ python main.py
+$ python main.py --username yourUsername
 ```
 
 Thats it, you have the CSV file with the people you follow.
